@@ -22,6 +22,8 @@ Java是由Sun Microsystems公司于1995年5月推出的动态的面向对象程�
 
 ![Java发展历史](http://ww1.sinaimg.cn/large/af4e9f79gy1fxlmhwehsrj220a136n1w.jpg)
 
+如果您想了解Java具体的发展历史，请参考[这里](http://oracle.com.edgesuite.net/timeline/java/)
+
 ## Java 的主要特性
 
 ## Java 中常用的一些概念
