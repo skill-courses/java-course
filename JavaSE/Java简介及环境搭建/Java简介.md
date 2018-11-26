@@ -1,6 +1,6 @@
 # Java 简介
 
-Java是由Sun Microsystems公司于1995年5月推出的动态的面向对象程序设计语言和Java平台的总称。  
+Java是由Sun Microsystems公司于1995年5月推出的动态的面向对象程序设计语言和Java平台的总称。
 **Java分为三个体系:**
 
 * JavaSE（Java Platform Standard Edition，java平台标准版）
@@ -20,16 +20,16 @@ Java是由Sun Microsystems公司于1995年5月推出的动态的面向对象程�
 * 2009年04月20日，甲骨文74亿美元收购Sun，取得java的版权。
 * 目前最新版是javaSE 11.
 
-![Java发展历史](http://ww1.sinaimg.cn/large/af4e9f79gy1fxlmhwehsrj220a136n1w.jpg)
+![Java发展历史](http://ww1.sinaimg.cn/large/af4e9f79gy1fxlmhwehsrj220a136n1w.jpg)
 
-如果您想了解Java具体的发展历史，请参考[这里](http://oracle.com.edgesuite.net/timeline/java/)
+如果您想了解Java具体的发展历史, 请参考[这里](http://oracle.com.edgesuite.net/timeline/java/)
 
 ## Java 的主要特性
 
 ## Java 中常用的一些概念
 
-### JVM
+### JVM
 
 ### JDK
 
-### JRE 
+### JRE
