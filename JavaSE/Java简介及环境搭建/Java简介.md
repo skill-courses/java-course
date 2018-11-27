@@ -39,9 +39,18 @@ Java是由Sun Microsystems公司于1995年5月推出的动态的面向对象程�
 * [Java的特性扫盲](https://www.jianshu.com/p/dcbe1fdc69e5)
 
 ## Java 中需要掌握的一些概念：
+### [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)
 
-### JVM
+Java 虚拟机 Java 虚拟机（Java virtual machine，JVM）是运行 Java 程序必不可少的机制。JVM实现了Java语言最重要的特征：即平台无关性。JVM屏蔽了与具体平台相关的信息，使Java语言编译程序只需要生成在JVM上运行的目标字节码（.class）,就可以在多种平台上不加修改地运行。Java 虚拟机在执行字节码时，把字节码解释成具体平台上的机器指令执行。因此实现java平台无关性。它是 Java 程序能在多平台间进行无缝移植的可靠保证，同时也是 Java 程序的安全检验引擎（还进行安全检查）。可以理解为JVM是编译后的Java程序(.class文件)和硬件系统之间的接口。
 
-### JDK
+### [JDK](https://en.wikipedia.org/wiki/Java_Development_Kit)
 
-### JRE
+Java软件开发工具包(Java Development Kit)，主要用于移动设备、嵌入式设备上的java应用程序。JDK是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。换句话说，要想进行Java程序的开发，就必须安装JDK, 因为JDK就是面向开发人员使用的SDK。关于JDK的安装，我们将会在接下来的课程中详细讲解。
+
+### [JRE](https://en.wikipedia.org/wiki/Java_virtual_machine)
+
+Java运行时环境(Java Runtime Environment)，允许Java程序所必须的环境集合，包括JVM标准实现以及Java核心类库。当Java源代码编译成为字节码之后，将字节码和JRE一同交给JVM，JVM才能在具体平台上执行。所以JRE包含了JVM，JDK自带了JRE。
+
+下面是他们三者之间的关系：
+
+![JVM&JRE&JDK](http://ww1.sinaimg.cn/large/af4e9f79gy1fxmn7ms53dj20b1095dip.jpg)
