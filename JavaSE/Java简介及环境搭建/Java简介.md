@@ -45,12 +45,16 @@ Java 虚拟机 Java 虚拟机（Java virtual machine，JVM）是运行 Java 程�
 
 ### [JDK](https://en.wikipedia.org/wiki/Java_Development_Kit)
 
-Java软件开发工具包(Java Development Kit)，主要用于移动设备、嵌入式设备上的java应用程序。JDK是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。换句话说，要想进行Java程序的开发，就必须安装JDK, 因为JDK就是面向开发人员使用的SDK。关于JDK的安装，我们将会在接下来的课程中详细讲解。
+Java软件开发工具包(Java Development Kit)，主要用于移动设备、嵌入式设备上的java应用程序。JDK是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。换句话说，要想进行Java程序的开发，就必须安装JDK, 因为JDK就是面向开发人员使用的SDK。关于JDK的安装，我们将会在接下来的课程中详细讲解。
 
 ### [JRE](https://en.wikipedia.org/wiki/Java_virtual_machine)
 
-Java运行时环境(Java Runtime Environment)，允许Java程序所必须的环境集合，包括JVM标准实现以及Java核心类库。当Java源代码编译成为字节码之后，将字节码和JRE一同交给JVM，JVM才能在具体平台上执行。所以JRE包含了JVM，JDK自带了JRE。
+Java运行时环境(Java Runtime Environment)，允许Java程序所必须的环境集合，包括JVM标准实现以及Java核心类库。当Java源代码编译成为字节码之后，将字节码和JRE一同交给JVM，JVM才能在具体平台上执行。所以JRE包含了JVM，JDK自带了JRE。
 
 下面是他们三者之间的关系：
 
 ![JVM&JRE&JDK](http://ww1.sinaimg.cn/large/af4e9f79gy1fxmn7ms53dj20b1095dip.jpg)
+
+## 课后作业
+
+深入了解JVM，JRE， JDK三者的关系，写一篇博客。
