@@ -17,3 +17,11 @@ I
 src/polymorphism/Cow.java,1/2/12bfa693876808fe69cbd71c06144548e0bfd5e8
 J
 src/polymorphism/Lion.java,d/5/d50aceb22a4f7e0ccd29cc1ec0c8d69a3c61a497
+U
+%src/abstract_class_interface/Cow.java,9/a/9a369b11a850f923ac554111edc7cad683e00213
+V
+&src/abstract_class_interface/Lion.java,2/b/2b5bef77868b91bcb0616c772fe5d913e1216bb0
+V
+&src/abstract_class_interface/Test.java,b/5/b5fd0f2b1b1b0ce557f0f13d5c7e9c98c94e94b7
+X
+(src/abstract_class_interface/Animal.java,c/8/c8b05746ad087b807fe69ebde4faa49c0e088f16

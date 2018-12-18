@@ -6,5 +6,8 @@ public class Test {
         cow.eat();
         Animal lion = new Lion();
         lion.eat();
+        
+        AnimalInterface animalInterface = new LionImplement();
+        animalInterface.eat();
     }
 }
