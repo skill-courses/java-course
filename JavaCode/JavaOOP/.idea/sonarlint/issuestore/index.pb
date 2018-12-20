@@ -25,3 +25,7 @@ V
 &src/abstract_class_interface/Test.java,b/5/b5fd0f2b1b1b0ce557f0f13d5c7e9c98c94e94b7
 X
 (src/abstract_class_interface/Animal.java,c/8/c8b05746ad087b807fe69ebde4faa49c0e088f16
+a
+1src/abstract_class_interface/AnimalInterface.java,e/0/e019ac3b089dfc72d270499e39393f8e4f535df4
+_
+/src/abstract_class_interface/LionImplement.java,b/2/b2aab66a98502479839b76e88bba2cd070daecc0

@@ -178,7 +178,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -349,16 +349,15 @@
       <workItem from="1544688732582" duration="801000" />
       <workItem from="1544781583506" duration="893000" />
       <workItem from="1545040853155" duration="899000" />
-      <workItem from="1545126792512" duration="723000" />
+      <workItem from="1545126792512" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4634000" />
+    <option name="totallyTimeSpent" value="4645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="203" width="1440" height="810" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,7 +368,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32658958" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
