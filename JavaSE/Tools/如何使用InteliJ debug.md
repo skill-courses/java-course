@@ -2,17 +2,19 @@
 
 InteliJ IDEA中自带有很强大的Debug功能，使用好InteliJ的Debug模式可以让代码调试变得更加轻松高效。这篇文章会为大家简要介绍Debug模式中的常用操作以及快捷键的使用。
 
+
+
 #### 1. Debug模式界面
 
 首先介绍一下Debug界面中的常用部分：
 
 ![Debug界面](https://ws4.sinaimg.cn/large/006tKfTcly1g0dbr6jmobj317d0u0wpz.jpg)
 
-* 服务按钮主要控制代码运行的流程（关闭/启动服务）以及管理断点等（会在—详细介绍）
+* 服务按钮主要控制代码运行的流程（关闭/启动服务）以及管理断点等（会在[服务按钮](#服务按钮)详细介绍）
 
-* 调试按钮部分是我们在调试代码时会用到的一些主要功能（会在—详细介绍）
+* 调试按钮部分是我们在调试代码时会用到的一些主要功能（会在[调试按钮](#调试按钮)详细介绍）
 
-* variables窗口和watches窗口主要用于查看变量（会在—详细介绍）
+* variables窗口和watches窗口主要用于查看变量（会在[查看变量](#查看变量)详细介绍）
 
 * 在Debug模式下，选中Debug窗口标签就会出现Debug界面。Debug窗口会在代码运行到第一个端点时激活。如果没有激活可以在设置中进行设置（见下图）。
 
@@ -85,3 +87,64 @@ InteliJ IDEA中自带有很强大的Debug功能，使用好InteliJ的Debug模式
 
 #### 4. 调试按钮
 
+![debug buttons](https://ws3.sinaimg.cn/large/006tKfTcly1g15xmgmqnnj30ci02ujri.jpg)
+
+1. 显示运行位置（⌥F10）：如果你的光标不在当前页面或者当前运行行，点击这个按钮后可以跳转到当前代码执行的行。
+
+2. 步过/单步执行（F8）：每次只执行一行代码，如果这行代码中有调用其他方法，不会进入方法。
+
+3. 步入/进入方法（F7）：如果当前行中调用了其他方法，可以进入方法内部。一般用于进入自定义方法，不会进入官方类库的方法。（当该行有多个方法时，依次步入）
+
+4. 强制步入（⌥⇧F7）：能够进入任何方法，常用于查看底层源码。（当该行有多个方法时，依次步入）
+
+5. 步出（⇧F8）：从步入的方法退出到方法调用的位置（此时方法已经执行完毕，还没有完成赋值）。
+
+6. 回退断点：从步入的方法退出到方法调用的开始处（此时方法还未执行，可以重新步入该方法）。
+
+7. 运行到光标处（⌥F9）：将光标定位到需要查看到那一行的代码，使用该功能，代码会运行至光标行然后暂停，不需要设置断点（相当于一个一次性的临时断点）。
+
+8. 计算表达式（⌥F8）：在调试过程中计算某个表达式的值，而不用再去打印信息。
+
+   例如在下图中，我们可以计算for循环中`i*j`的值：
+
+   ![calculate expression](https://ws2.sinaimg.cn/large/006tKfTcly1g15zgyrte1j31360ioafo.jpg)
+
+
+
+​	补充：***智能步入***（⇧F7）：当一行代码中有好几个方法时，而我们只想进入某一个方法时，使用智能步入会列出所有可步入的方法，由用户选择需要进入的方法（如下图）。如果只有一个方法，则直接进入（类似强制步入）。该方法可以在Run菜单中找到，也可以直接使用快捷键。
+
+![smart step over](https://ws2.sinaimg.cn/large/006tKfTcly1g15yz097p0j30po07cdhi.jpg)
+
+
+
+####5. 查看变量
+
+在debug过程中，我们经常需要跟踪查看变量的变化，在InteliJ IDEA中有以下几种方法可以查看变量：
+
+1. 在InteliJ IDEA中，参数所在行的代码后面会用灰色的斜体字标明当前变量的值：
+
+   ![example1](https://ws4.sinaimg.cn/large/006tKfTcly1g16039hmn2j311i0ieadh.jpg)
+
+2. 光标悬停在参数上也可以显示当前变量信息：
+
+   ![example2](https://ws3.sinaimg.cn/large/006tKfTcly1g1606mcr8dj30eo052t99.jpg)
+
+3. Variables窗口，这里可以查看当前所有变量的信息：
+
+   ![variables](https://ws2.sinaimg.cn/large/006tKfTcly1g1608m3z5bj30dk0budgz.jpg)
+
+4. Watches窗口。你可以将需要观察的变量从 Variables窗口中拖拽到Watches窗口，也可以根据你的需求添加新的需要观察的变量/表达式。
+
+   Watches窗口中有用一排按钮：
+
+   左侧的加/减符号可以添加/删除要观察的变量；中间的上下箭头可以移动变量显示的位置；箭头右侧的按钮用来复制一个需要观察的变量；点击最右侧的眼睛标志可以将Watches窗口合并入Variables窗口中。
+
+   ![watches](https://ws3.sinaimg.cn/large/006tKfTcly1g160d4m3w2j30k00b4wex.jpg)
+
+   注：一般来说，Watches窗口会并排出现在Variables窗口右侧。有时Watches窗口也会被合并入Variables窗口中：（如下图）
+
+   ![watches](https://ws3.sinaimg.cn/large/006tKfTcly1g160nu5il4j30c20dign0.jpg)
+
+   有时候会最小化，图标位置如下图所示：
+
+   ![watches](https://ws2.sinaimg.cn/large/006tKfTcly1g160q9gbz8j310c0f0q5d.jpg)
